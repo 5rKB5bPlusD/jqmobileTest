@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+    <script src="../../jquery/jquery.js"></script>
+    <script src="../../jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+    <title>组合按钮</title>
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <div data-role="header">
+        <h1>组合按钮</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div data-role="controlgroup" data-type="horizontal">
+            <p>水平组合按钮:</p>
+            <a href="#" class="ui-btn">按钮 1</a>
+            <a href="#" class="ui-btn">按钮 2</a>
+            <a href="#" class="ui-btn">按钮 3</a>
+        </div><br>
+
+        <div data-role="controlgroup" data-type="vertical">
+            <p>垂直组合按钮 (默认):</p>
+            <a href="#" class="ui-btn">按钮 1</a>
+            <a href="#" class="ui-btn">按钮 2</a>
+            <a href="#" class="ui-btn">按钮 3</a>
+        </div>
+    </div>
+
+    <div data-role="footer">
+        <h1>底部文本</h1>
+    </div>
+</div>
+</body>
+</html>
